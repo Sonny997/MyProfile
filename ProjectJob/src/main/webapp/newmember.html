@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang ="ko">
+<head>
+	<meta charset = "UTF-8">
+	<title> 자기소개서 대리 맡기기 </title>
+	<link rel = "stylesheet" href = "style3.css">
+	<script src = "js/jquery-3.6.3.js"></script>
+	
+	<script> 
+	$(function(){
+		$( "#btn" ).click(function() {
+			  alert( "신청이 완료되었습니다." );
+			});
+	});
+	</script>
+	
+</head>
+<body>
+	<section class="application-form">
+	<h1> application form </h1>
+	<div>
+	 		<div class="int-area">
+	 			<input type = "text" name = "nm" id = "nm"
+	 			autocomplete = "off" required>
+	 			<label for = "name"> name </label>
+	 		</div>
+	 		<div class="int-area">
+	 			<input type ="tel" name = "nb" id = "nb"
+	 			autocomplete = "off" required>
+	 			<label for = "number"> number </label>
+	 		</div>
+	 		<div class="btn-area">
+	 			<button id = "btn"
+	 			type = "submit"> apply </button>
+	 		</div>
+	 		<div class = "caption">
+	 		<a href = "complete.html"> apply list </a>
+	 		</div>
+	</div>
+	</section>
+</body>
+</html>
+	
